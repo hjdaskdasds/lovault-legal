@@ -16,6 +16,7 @@
         }
         h1 { font-size: 2em; margin-bottom: 0.2em; }
         h2 { font-size: 1.4em; margin-top: 2em; color: #333; }
+        .highlight { background-color: #f5f5f7; padding: 15px; border-radius: 8px; border-left: 4px solid #0071e3; margin: 15px 0; }
         a { color: #0071e3; text-decoration: none; }
         ul { padding-left: 1.4em; }
         .effective-date { color: #6e6e73; }
@@ -23,64 +24,59 @@
 </head>
 <body>
     <h1>Privacy Policy for lovault</h1>
-    <p class="effective-date"><strong>Effective Date:</strong> May 1, 2026</p>
+    <p class="effective-date"><strong>Last Updated:</strong> May 1, 2026</p>
 
     <p>
-        lovault ("we", "our", or "us") is committed to protecting your privacy.
-        This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application ("the App"), which helps users craft emotionally intelligent replies.
+        lovault ("we", "our", or "us") is committed to protecting your privacy. 
+        This Privacy Policy explains how we collect, use, and share information when you use our mobile application ("the App").
     </p>
 
-    <h2>1. Information We Collect</h2>
-    <p>We collect limited information to provide and improve the App:</p>
+    <div class="highlight">
+        <strong>Important for AI Transparency:</strong> lovault uses third-party AI services to generate high-EQ reply suggestions. We prioritize your privacy and provide granular controls over how your data is handled.
+    </div>
+
+    <h2>1. Information We Collect and How We Use It</h2>
     <ul>
-        <li><strong>User Content.</strong> When you input text to receive high‑EQ reply suggestions, that text is processed temporarily. We do <strong>not</strong> store your input text on our servers after the generation is complete. Processing is done on‑device or via ephemeral sessions with our AI service provider, depending on your settings.</li>
-        <li><strong>Usage Data.</strong> We collect anonymous analytics (e.g., feature usage frequency, crash logs, interaction patterns) via Apple’s built‑in frameworks. This data does not identify you personally.</li>
-        <li><strong>Subscription Information.</strong> When you purchase a subscription, Apple processes the payment. We receive only a non‑identifiable subscriber status token to unlock premium features. We do <strong>not</strong> collect your credit card details.</li>
-        <li><strong>Support Requests.</strong> If you contact us, we may keep your email address and message content solely to resolve your issue.</li>
+        <li><strong>User Content (Text & Screenshots):</strong> To generate reply suggestions, you may input text or upload chat screenshots. 
+            <ul>
+                <li><strong>Text Data:</strong> We process the text you provide to generate emotionally intelligent responses.</li>
+                <li><strong>Image Data:</strong> Screenshots are used for OCR (Optical Character Recognition) to extract conversation context.</li>
+            </ul>
+        </li>
+        <li><strong>Enhanced Privacy Protection (User Control):</strong> In the App's settings, you can enable <strong>"Enhanced Privacy Protection."</strong> When enabled:
+            <ul>
+                <li>Screen recognition (OCR) is performed entirely <strong>on-device</strong>.</li>
+                <li><strong>NO image/screenshot data</strong> is ever sent to our AI service providers.</li>
+                <li>Only the extracted <strong>text fragments</strong> are sent to the AI to generate replies.</li>
+            </ul>
+        </li>
     </ul>
 
-    <h2>2. How We Use Information</h2>
-    <p>We use the collected information to:</p>
+    <h2>2. Third-Party AI Services and Data Sharing</h2>
+    <p>To provide high-quality AI generation, we partner with specialized AI service providers. <strong>We only share text-based data required for generation.</strong></p>
     <ul>
-        <li>Generate, deliver, and improve the emotional intelligence reply suggestions.</li>
-        <li>Maintain, troubleshoot, and enhance the App’s performance.</li>
-        <li>Respond to your comments, questions, and support requests.</li>
-        <li>Send important notices (e.g., subscription changes) if permitted by you.</li>
-        <li>Comply with legal obligations.</li>
+        <li><strong>Identify of Providers:</strong> We may transmit data to <strong>DeepSeek</strong>, <strong>Google (Gemini)</strong>, and <strong>OpenAI (ChatGPT)</strong>.</li>
+        <li><strong>No-Training Commitment:</strong> We have verified that our AI service providers do <strong>NOT</strong> use any data transmitted from lovault to train their large language models. Your data remains ephemeral and is used solely for your specific request.</li>
+        <li><strong>Data Protection:</strong> These providers are contractually and technically bound to provide the same or equal protection of your personal data as outlined in this policy.</li>
     </ul>
 
-    <h2>3. Data Sharing and Disclosure</h2>
-    <p>We do <strong>not</strong> sell, trade, or rent your personal information to third parties. We may share data only in the following limited circumstances:</p>
+    <h2>3. Data Usage Restrictions</h2>
+    <p>We do <strong>not</strong> sell, trade, or rent your personal information. Data shared with AI providers is strictly limited to:</p>
     <ul>
-        <li><strong>Service Providers.</strong> We may use trusted third parties to provide AI processing (e.g., OpenAI, Google Cloud) solely on our behalf. These providers are contractually bound to process data only as instructed and not for their own purposes.</li>
-        <li><strong>Legal Requirements.</strong> We may disclose information if required to do so by law or in response to valid legal requests by public authorities.</li>
-        <li><strong>Business Transfers.</strong> In connection with a merger, sale, or acquisition, your data may be transferred. You will be notified before any such transfer occurs.</li>
+        <li>Processing your immediate request for a reply suggestion.</li>
+        <li>Contextual memory (if enabled) to ensure the reply matches your conversation history.</li>
     </ul>
 
     <h2>4. Data Retention</h2>
-    <p>User content (input text) is automatically deleted from our systems within 24 hours after processing. Anonymized analytics data may be retained indefinitely. Support emails are deleted after resolution, unless otherwise required by law.</p>
+    <p>All user-provided text and screenshots processed by AI services are ephemeral. They are automatically deleted from our service providers' systems within 24 hours of processing. We do <strong>not</strong> maintain long-term logs of your private conversations on our servers.</p>
 
-    <h2>5. Your Rights (GDPR, CCPA, etc.)</h2>
-    <p>Depending on your jurisdiction, you may have rights to:</p>
-    <ul>
-        <li>Access, correct, or delete personal data we hold about you.</li>
-        <li>Object to or restrict processing of your personal data.</li>
-        <li>Data portability.</li>
-        <li>Withdraw consent at any time (for processing based on consent).</li>
-    </ul>
-    <p>To exercise these rights, contact us using the details below. We will respond within the timeframes required by law.</p>
+    <h2>5. Consent and Permissions</h2>
+    <p>By using lovault’s AI features, you provide explicit consent for the App to transmit the necessary data to the third-party providers listed above. You may withdraw this consent at any time by ceasing to use the AI features or adjusting your settings in the App.</p>
 
-    <h2>6. Children's Privacy</h2>
-    <p>lovault is not intended for children under 13, and we do not knowingly collect data from children. If we become aware that a child under 13 has provided personal data, we will delete it promptly.</p>
-
-    <h2>7. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you by updating the "Effective Date" and, for significant changes, by in‑app notice or email.</p>
-
-    <h2>8. Contact Us</h2>
-    <p>If you have any questions or requests regarding this Privacy Policy:</p>
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or requests regarding this Privacy Policy or our AI data handling:</p>
     <ul>
         <li>Email: <a href="mailto:lee271420@gmail.com">support@lovault.app</a></li>
-        
     </ul>
 
     <p><a href="index.html">← Back to All Policies</a></p>
